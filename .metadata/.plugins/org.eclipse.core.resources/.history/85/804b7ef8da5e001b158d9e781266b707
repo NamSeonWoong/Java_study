@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Fruit fruit = new Peach();
+		fruit.show();
+		Fruit fruit2 = new Banana();
+		fruit2.show();
+	}
+
+}

@@ -1,0 +1,33 @@
+
+public class Main extends Player{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Main main = new Main();
+		main.play("벚꽃 엔딩");
+}
+	
+	
+	@Override
+	void play(String songName)	{
+		
+		
+	}
+	
+	@Override
+	void pause() {
+		
+		System.out.println("곡을 일시정지합니다.");
+		
+		
+	}
+	
+	@Override
+	void stop() {
+		
+		System.out.println("곡을 정지합니다.");
+		
+		
+	}
+
+}
